@@ -25,22 +25,22 @@ export default function App() {
 
 
     event.preventDefault();
-    if(title){
-      
-    if (a) {
-      alert(" هر وقت برنامه ات را انجام دادی روی گزینه سطل آشغال کلیک کن !")
-    }
+    if (title) {
+
+      if (a) {
+        alert(" هر وقت برنامه ات را انجام دادی روی گزینه سطل آشغال کلیک کن !")
+      }
 
 
 
 
-    setTimeout(() => seta(false), 3000);
+      setTimeout(() => seta(false), 3000);
 
       dispatch(addTodoAction(title));
     }
-   else{
-    alert(" باید باکس را پر نمایید")
-   }
+    else {
+      alert(" باید باکس را پر نمایید")
+    }
     setTitle("");
   }
   const removeTodoHandler = () => {

@@ -32,7 +32,7 @@ export const addTodoAction = (title) => ({
   },
 });
 
-export const  removeTodoAction = (id) => ({
+export const removeTodoAction = (id) => ({
   type: removeTodo,
-id,
+  id,
 });
